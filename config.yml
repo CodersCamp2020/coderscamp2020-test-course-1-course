@@ -12,9 +12,9 @@ before:
     title: Welcome!
     body: new-issue.md
 steps:
-  - title: First step
-    description: The first step in your course
+  - title: Zainstaluj VS Code
+    description: "W przypadku każdego języka programowania pliki z kodem stanowią zwyczajne pliki tekstowe o rozszerzeniach charakterystycznych dla danego języka. Powoduje to, że w niejednym poradniku usłyszysz radę, aby na początku edytować swój kod w notatniku, aby przy odrobinie męczarni zapoznać się dokładnie z jego składnią. My nie popieramy takiego podejścia \U0001F643  Właśnie dlatego już na początku szkolenia doradzimy Ci, jak zaopatrzyć się w narzędzia, które sami kompletowaliśmy na przestrzeni kilku lat eksperymentów \U0001F60E  Jako edytor kodu koniecznie wybierz Visual Studio Code stworzony przez Microsoft. VS Code nie tylko sam w sobie zapewni Ci idealne środowisko do tworzenia pierwszych stron i aplikacji, ale także pozwoli pisać kod jeszcze efektywniej, dzięki dodatkom, które zainstalujesz w kolejnym kroku."
     event: issues.assigned
-    link: '{{ repoUrl }}'
+    link: 'https://code.visualstudio.com/'
     actions:
       - type: closeIssue
